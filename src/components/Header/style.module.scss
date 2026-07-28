@@ -1,0 +1,42 @@
+.header {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100vw;
+  background: transparent;
+  padding: 1rem 3rem;
+  color: #0e0e0e;
+
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .heading {
+      font-size: 1rem;
+      font-weight: 700;
+      h1 {
+        font-family: 'Nico Moji', sans-serif;
+      }
+    }
+
+    nav {
+      ul {
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+        li {
+          list-style: none;
+          font-size: 1rem;
+          font-weight: 500;
+          cursor: pointer;
+          a {
+            text-decoration: none;
+            color: #0e0e0e;
+          }
+        }
+      }
+    }
+  }
+}
