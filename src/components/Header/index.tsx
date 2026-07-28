@@ -10,7 +10,7 @@ import { useRef } from "react";
 gsap.registerPlugin(SplitText, useGSAP);
 
 const NAV_LINKS = [
-    { label: "Work", href: "/" },
+    { label: "Work,", href: "/" },
     { label: "About", href: "/about" },
 ];
 
