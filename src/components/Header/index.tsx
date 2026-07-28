@@ -10,7 +10,7 @@ import { useRef } from "react";
 gsap.registerPlugin(SplitText, useGSAP);
 
 const NAV_LINKS = [
-    { label: "Work", href: "/work" },
+    { label: "Work", href: "/" },
     { label: "About", href: "/about" },
 ];
 
@@ -48,7 +48,7 @@ export default function Header() {
                     duration: 0.6,
                     stagger: 0.02,
                     ease: "power2.inOut",
-                    delay: 0.3, 
+                    delay: 0.3,
                 });
             },
         });
